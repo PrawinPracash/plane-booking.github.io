@@ -1,0 +1,253 @@
+
+.bg-container{
+
+	background-color:#45ed5b;
+
+	color: white;
+    
+}
+body{
+	background-color: #45ed5b;
+}
+
+.heading{
+
+	font-family: cursive;
+
+}
+
+#curr_date{
+
+	width:160px ;
+	text-align: center;
+	height: 40px;
+	font-size: 20px;
+	font-family: "Roboto";
+	color: #45ed5b;
+	font-weight: bold;
+	border-radius: 8px;
+	border-width: 0px;
+
+}
+#date{
+	color: white;
+	font-family: "Roboto";
+	font-size: 25px;
+	margin-right: 10px;
+}
+
+.details{
+	color: white;
+	background-color: #45ed5b;
+	border-radius: 8px;
+	border-width: 1;
+	width: 140px;
+	height: 40px;
+	border-color: white;
+
+
+
+}
+
+#icon{
+	font-size: 40px;
+}
+
+#details_container{
+
+	color: white;
+}
+
+.item{
+	margin: 10px;
+
+}
+
+#details-cont{
+
+	font-size: 20px;
+	font-family: cursive;
+
+}
+#item-container{
+	font-size: 20px;
+	font-family: cursive;
+
+}
+
+.msg{
+
+	font-size: 80px;
+
+}
+
+.button{
+
+	color: white;
+	background-color: #45ed5b;
+	border-radius: 8px;
+	border-width: 1;
+	width: 100px;
+	height: 40px;
+	border-color: white;
+
+
+}
+
+.button1{
+
+	color: white;
+	background-color: #076ef5;
+	border-radius: 8px;
+	border-width: 1;
+	width: 150px;
+	height: 60px;
+	border-color: white;
+
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.center {
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.cont-1 {
+    background-color: #076ef5;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    /* height: */
+    font-family: 'Lato', 'sans-serif';
+}
+
+.movie-container {
+    margin: 20px 0;
+}
+
+.movie-container select {
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.container {
+    perspective: 1000px;
+    margin-bottom: 30px;
+}
+
+.seat {
+    background-color: #444451;
+    height: 35px;
+    width: 35px;
+    margin: 3px;
+    margin: 14px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.seat.selected {
+    background-color: #6feaf6;
+}
+
+.seat.occupied {
+    background-color: #fff;
+}
+
+
+.seat:not(.occupied):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.showcase .seat:not(.occupied):hover {
+    cursor: default;
+    transform: scale(1);
+}
+
+.showcase {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.available {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    height: 35px;
+    border-color: black;
+}
+
+.showcase li small {
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.bookingbtn {
+    border-radius: 10px;
+    height: 40px;
+    background-color: #606060;
+    border-color: black;
+    color: black;
+
+}
+
+.align {
+    margin-left: 30px;
+    margin-right:40px;
+}
+
+.align1 {
+    margin-left: 40px;
+}
+
+.align2 {
+    margin-left: 180px;
+}
+
+.align3{
+    margin-left: 20px;
+}
+
+p.text {
+    margin: 5px 0;
+}
+
+p.text span {
+    color: #6feaf6;
+    /* } */
+}
+
+
+
+
